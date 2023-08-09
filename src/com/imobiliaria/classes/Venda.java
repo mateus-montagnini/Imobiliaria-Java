@@ -25,9 +25,11 @@ public class Venda extends Imovel {
     public boolean isVendido() {
         return vendido;
     }
-    
+
 
     public void vender() {
-        this.vendido = true;
+        if(ativo) {
+            this.vendido = true;
+        }
     }
 }

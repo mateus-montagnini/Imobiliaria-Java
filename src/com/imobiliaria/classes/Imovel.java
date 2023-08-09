@@ -6,7 +6,7 @@ public class Imovel {
 
     private String endereco;
     private LocalDate dataCadastro;
-    private boolean ativo;
+    protected boolean ativo;
 
     public Imovel(String endereco, LocalDate dataCadastro) {
         super();
